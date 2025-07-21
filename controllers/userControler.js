@@ -1,4 +1,4 @@
-import { generateToken } from '../../../Lessons/PracticeLessons/AthenticationAndAuthorization/util/generateToken.js';
+import { generateToken } from '../util/generateTokens.js';
 import userDb from  '../models/userDb.js';
 import TransactionDb from '../models/transectionSchema.js';
 import bcrypt from 'bcrypt';
