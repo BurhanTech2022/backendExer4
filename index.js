@@ -14,7 +14,7 @@ dotenv.config()
 // Use middleWare
 
 app.use(cors({
-  origin: 'http://localhost:5000', // your frontend origin
+  origin: 'https://backendexer4-jz29.onrender.com/', // your frontend origin
   credentials: true
 }));
 

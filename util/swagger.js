@@ -13,7 +13,7 @@ const options = {
     servers: [
       {
         url: process.env.NODE_ENV === 'development'
-  ? 'http://localhost:5000' : "http://localhost:5000"
+  ? 'http://localhost:5000' : "https://backendexer4-jz29.onrender.com/"
       }
     ],
     components: {
